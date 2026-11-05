@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Character Counter</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#121212] text-white h-[100vh] flex flex-col items-center justify-center">
+    <div class="bg-[#33323233] w-[50vw] text-center p-6 rounded-md shadow-lg shadow-slate-950">
+        <h1 class="font-semibold text-2xl pb-3 ">Live Character Counter</h1>
+        <h3 class="pb-4">Tell us your story....</h3>
+
+        <textarea id="text" name="story" cols="80" rows="10"
+            class="border-sky-700 bg-[#333333] rounded-md p-5 shadow-lg shadow-slate-950"></textarea>
+        <span class="text-left ml-13 mt-4">Characters:</span>
+        <span id="counter"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
